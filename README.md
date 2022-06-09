@@ -1,3 +1,11 @@
+## :white_check_mark: About this repo
+
+This is my implementation of Stanford CS144's lab. All 7 labs are been done and the completed source code is located at `libsponge/`. My blog on this course is available at [CSDN](https://blog.csdn.net/altair_alpha/category_11841682.html).
+
+Contents below are from the original README.
+
+
+
 For build prereqs, see [the CS144 VM setup instructions](https://web.stanford.edu/class/cs144/vm_howto).
 
 ## Sponge quickstart
