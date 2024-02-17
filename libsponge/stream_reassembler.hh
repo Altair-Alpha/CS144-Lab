@@ -11,8 +11,6 @@
 //! possibly overlapping) into an in-order byte stream.
 class StreamReassembler {
   private:
-    // Your code here -- add private members as necessary.
-
     ByteStream _output;                         //!< The reassembled in-order byte stream
     std::map<size_t, std::string> _wait_map{};  // byte streams to be assembled.
                                                 // Key is the first byte's index and value is the stream itself.

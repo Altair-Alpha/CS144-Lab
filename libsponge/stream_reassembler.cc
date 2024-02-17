@@ -78,7 +78,7 @@ void StreamReassembler::update_waitmap() {
             }
         } else {
             ++it;
-        }   
+        }
     }
 }
 

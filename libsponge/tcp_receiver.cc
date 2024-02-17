@@ -15,8 +15,8 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     }
     string data = seg.payload().copy();
     if (!data.empty()) {
-        // there's a special case in t_ack_rst that a segment with data whose seqno belongs to SYN, that data should be
-        // ignored
+        // there's a special case in t_ack_rst that a segment with data whose seqno belongs to SYN,
+        // that data should be ignored
         if (syn || header.seqno != _init_seqno) {
             // we treat _init_seqno as the index of the first valid byte (though it's actually for SYN)
             // so for segments without SYN, the index should be shifted back by 1
